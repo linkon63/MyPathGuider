@@ -1,5 +1,5 @@
 {
-  "name": "mpg",
+  "name": "mypathguider",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -14,25 +14,15 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.72",
-    "@docusaurus/preset-classic": "2.0.0-alpha.72",
+    "@docusaurus/core": "2.0.0-beta.0",
+    "@docusaurus/preset-classic": "2.0.0-beta.0",
     "@mdx-js/react": "^1.6.21",
-    "axios": "^0.21.1",
-    "bootstrap": "^5.0.1",
+    "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
-    "jwt-decode": "^3.1.2",
-    "mongodb": "^3.6.9",
-    "my-loaders": "file:plugins/my-loaders",
-    "postcss-import": "^14.0.2",
+    "file-loader": "^6.2.0",
     "react": "^17.0.1",
-    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.1",
-    "react-icons": "^4.2.0",
-    "react-password-strength-bar": "^0.3.3",
-    "reactjs-popup": "^2.0.4",
-    "ssr-window": "^3.0.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "use-sse": "^2.0.1"
+    "url-loader": "^4.1.1"
   },
   "browserslist": {
     "production": [
