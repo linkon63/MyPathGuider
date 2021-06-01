@@ -1,6 +1,7 @@
 import React, { Component, useState} from 'react'
 
 export class Card extends Component {
+    
     render() {
                 return (
                     <div className="border-8 border-blue-600">

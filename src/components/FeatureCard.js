@@ -1,4 +1,5 @@
 import React, { Component, useState} from 'react'
+import '../css/homePageImagesZoom.css';
 
 export class FeatureCard extends Component {
     constructor(){
@@ -12,13 +13,16 @@ export class FeatureCard extends Component {
     render() {
               
                 return (
-                    <div className={" mx-0 bg-gray-200 mx-7 px-7 my-7 rounded-2xl" } style={{backgroundColor : this.props.bgcolor}}>
-                        <div className={`text-center py-5 mb-3 lg:mx-52 mx-7 px-7 `}>
+                    <div className={" mx-0 bg-gray-200 rounded-2xl" } style={{backgroundColor : this.props.bgcolor}}>
+                        {/* <h1>Hello Mypath</h1> */}
+                        <div className={`text-center mb-3 lg:mx-52`}>
                             <div className="m-0 lg:m-auto text-left ">
-                                <div className={this.props.id ? "lg:flex  lg:flex-row" : "lg:flex  lg:flex-row-reverse"}>
+                                <div className={this.props.id ? "lg:flex  lg:flex-row" : "lg:flex  lg:flex-row-reverse"}> 
+                                {/* "grid grid-cols-1 md:grid-cols-6 */}
                                     <div className="">
-                                        <div className="p-5 md:p-24 lg:p-5">
-                                            <img src={this.props.imgUrl} alt={this.props.title}></img>
+                                        <div className="p-5 md:p-24 lg:p-5 manageImagesDiv">
+                                            {/* <h1>Picture Fixing</h1> */}
+                                            <img id="homePageImages" src={this.props.imgUrl} alt={this.props.title}></img>
                                         </div>
                                     </div>
                                     <div className=" text-center lg:text-left flex justify-center align-center flex-col ">
